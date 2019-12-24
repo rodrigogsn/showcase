@@ -1,0 +1,142 @@
+@import url("https://fonts.googleapis.com/css?family=Vidaloka|Work+Sans:400,600,900&display=swap");
+
+body {
+  text-rendering: optimizeLegibility !important;
+  -webkit-font-smooting: antialiased !important;
+}
+
+ion-grid {
+  padding: 0 80px !important;
+}
+
+a {
+  text-decoration: none;
+  font-weight: 600;
+}
+
+h1 {
+  font-family: "Vidaloka", serif;
+  font-weight: bolder;
+  font-size: 100px !important;
+  line-height: 1 !important;
+}
+
+h3 {
+  font-size: 22px;
+  margin-top: 0px !important;
+  font-family: "Vidaloka";
+  background: #333132;
+  color: white;
+  display: inline-block;
+  padding: 10px;
+}
+
+p {
+  margin: 20px !important;
+}
+
+small {
+  margin: 10px !important;
+}
+
+strong {
+  color: transparent;
+  background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab, gold);
+  background-size: 400% 400%;
+  animation: gradientBG 2s ease infinite;
+  background-clip: text;
+}
+
+footer {
+  margin-top: 50px;
+}
+
+.divider {
+  border-bottom: 1px solid #dadada;
+  margin: 50px 0;
+}
+
+@keyframes gradientBG {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+ion-card-title {
+  font-family: "Vidaloka", serif;
+  font-weight: bolder;
+}
+
+.logo {
+  max-width: 150px;
+  display: block;
+  margin: 8% auto;
+}
+
+.logo-mini {
+  max-width: 40px;
+  display: block;
+  margin: 20px auto;
+}
+
+.mockup-consitec {
+  background: #bf332c;
+}
+.mockup-holerity {
+  background: #481079;
+}
+.mockup-inuv {
+  background: #03ce7d;
+}
+.mockup-inw {
+  background: #857040;
+}
+.mockup-kosher {
+  background: #083377;
+}
+.mockup-newsource {
+  background: gold;
+}
+.mockup-noeland {
+  background: #821315;
+}
+.mockup-orik {
+  background: #45c6d2;
+}
+.mockup-pennacorp {
+  background: #707cae;
+}
+
+.mockup {
+  width: 40%;
+  margin: 10px auto;
+  transition: all 0.2s;
+}
+
+.mockup-container {
+  padding: 20px 10px;
+  overflow: hidden;
+}
+
+.mockup-container:hover {
+  .mockup {
+    transform: scale(1.1);
+    transition: all 0.1s;
+  }
+}
+
+@media screen and (max-width: 680px) {
+  ion-grid {
+    padding: 0 !important;
+  }
+
+  h1 {
+    font-size: 40px !important;
+  }
+}
